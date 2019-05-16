@@ -6,26 +6,30 @@
     <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css"  />
     <title>Zach Murphy Contact</title>
 </head>
-<body>
+<body class="body-center">
         <header id="header">
+                <div id="header-content">
                 <h1 id="name">Zachary Murphy</h1>
                 <nav id="nav-bar">
                     <ul>
-                        <li id="about"><a href="index.html">About</a></li>
-                        <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
-                        <li id="contact"><a href="contact.html">Contact</a></li>
+                        <li id="about-link"><a href="index.html">About</a></li>
+                        <li id="portfolio-link"><a href="portfolio.html">Portfolio</a></li>
+                        <li id="contact-link"><a href="contact.html">Contact</a></li>
                     </ul>
-    <h2>Contact</h2>
-    <form id="contact-form">
-        <div id="contact-div">
-            <p>* Indicates a required field</p>
+                </nav>
+            </div>
+            </header>
+<div class="body-wrapper">
+        <h2 id="contact">Contact</h2>
+        <form id="contact-form">
+        <p>* Indicates a required field</p>
         <label id="name-label" for="name">* Your Name</label>
-     <input id="name" type="text" name="user-name" placeholder="Enter your name" required>
-          <label id="email-label" for="email"> * Your Email</label>
-          <input id="email" type="email" name="user-email" placeholder="Enter your email" required>
-          <textarea id="comments" placeholder="Tell me a bit about the project that you have in mind."></textarea>
-          <input type="submit">
-        </div>
-    </form>    
+        <input id="name" type="text" name="user-name" placeholder="Enter your name" required>
+        <label id="email-label" for="email"> * Your Email</label>
+        <input id="email" type="email" name="user-email" placeholder="Enter your email" required>
+        <textarea id="comments" placeholder="Tell me a bit about the project that you have in mind."></textarea>
+        <input type="submit">
+    </form> 
+</div>
 </body>
 </html>
