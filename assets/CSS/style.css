@@ -1,0 +1,56 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#about-body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Nav Bar Baby */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color:#ffffff;
+    font-family:  'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px solid;
+    border-color: #cccccc;
+    width: 100%;
+    padding: 0;
+}
+
+#header-content {
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+
+header h1 {
+background-color: #4aaaa5;
+color: white;
+padding: 25px 20px;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+#nav-bar li {
+    padding: 0 10px;
+    list-style: none;
+    border-left: 1px solid #cccccc;
+}
+
+#nav-bar #about-link {
+    border-left: none; 
+}
+/* End of Nav Bar */
+
+
