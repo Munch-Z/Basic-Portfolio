@@ -126,7 +126,31 @@ font-family:  'Georgia', Times, Times New Roman, serif;
 
 /* Portfolio Page Styling */
 
-.portfolio-wrapper {
+#portfolio-wrapper {
     display: grid;
-    
+    grid-template-columns: 1fr 1fr;
+    padding: 15px 0px 0px;
+    max-width: 480px;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+}
+
+#hangman-div, #rpg-game-div, #trivia-div, #info-widget-div, #rock-paper-scissors-div {
+    position: relative;
+    width: 200px;
+}
+
+.text-wrapper {
+    position: absolute;
+    color:  #ffffff;
+    z-index: 1;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 200px;
+    top: 150px;
+    left: 0px;
+    padding: 10px 0px;
 }
