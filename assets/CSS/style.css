@@ -118,12 +118,6 @@ font-family:  'Georgia', Times, Times New Roman, serif;
 }
 /* Bio Page Body End */
 
-/*Contact Page Main */
-
-#contact-div {
-    padding-top: 200px;
-}
-
 /* Portfolio Page Styling */
 
 #portfolio-wrapper {
@@ -154,3 +148,44 @@ font-family:  'Georgia', Times, Times New Roman, serif;
     left: 0px;
     padding: 10px 0px;
 }
+/* End of portfolio styling */
+
+/*Contact Page Styling */
+
+#contact-div {
+    padding-top: 200px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    padding: 15px 0px 0px 0px;
+}
+
+#comments-box-div {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#comments {
+    height: 200px;
+}
+
+input[type=text],input[type=email] {
+    width: auto;
+    height: 20px;
+    text-align: left;
+    border-radius: 5px;
+  }
+
+  input[type=submit] {
+      width: 150px;
+      height: 40px;
+      color: #ffffff;
+      background-color: #4aaaa5;
+      border: none;
+  }
