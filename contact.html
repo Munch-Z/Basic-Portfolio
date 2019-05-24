@@ -7,6 +7,7 @@
     <title>Zach Murphy Contact</title>
 </head>
 <body class="body-center">
+<div class="test">
         <header id="header">
                 <div id="header-content">
                 <h1 id="name">Zachary Murphy</h1>
@@ -19,17 +20,22 @@
                 </nav>
             </div>
             </header>
-<div class="body-wrapper">
-        <h2 id="contact">Contact</h2>
+<div class="content-wrapper">
+    <h2 id="contact">Contact</h2>
         <form id="contact-form">
-        <p>* Indicates a required field</p>
-        <label id="name-label" for="name">* Your Name</label>
-        <input id="name" type="text" name="user-name" placeholder="Enter your name" required>
-        <label id="email-label" for="email"> * Your Email</label>
-        <input id="email" type="email" name="user-email" placeholder="Enter your email" required>
-        <textarea id="comments" placeholder="Tell me a bit about the project that you have in mind."></textarea>
-        <input type="submit">
-    </form> 
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" name="user-name" placeholder="John Smith" required>
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" name="user-email" placeholder="example@gmail.com" required>
+            <div id="comments-box-div">
+                <label for="comments">Message</label>
+                <textarea id="comments"></textarea></div>
+            <input type="submit">
+        </form> 
 </div>
+</div>
+<footer class="footer">
+        <p>Copyright ©</p>
+</footer>
 </body>
 </html>
